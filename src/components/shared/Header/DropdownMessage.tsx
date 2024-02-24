@@ -35,14 +35,13 @@ const DropdownMessage = () => {
 
   return (
     <li className="relative">
-      <Link
+      <button
         ref={trigger}
         onClick={() => {
           setNotifying(false);
           setDropdownOpen(!dropdownOpen);
         }}
         className="relative flex h-8.5 w-8.5 items-center justify-center rounded-full border-[0.5px] border-stroke bg-gray hover:text-primary dark:border-strokedark dark:bg-meta-4 dark:text-white"
-        href="#"
       >
         <span
           className={`absolute -right-0.5 -top-0.5 z-1 h-2 w-2 rounded-full bg-meta-1 ${
@@ -77,7 +76,7 @@ const DropdownMessage = () => {
             fill=""
           />
         </svg>
-      </Link>
+      </button>
 
       <div
         ref={dropdown}
