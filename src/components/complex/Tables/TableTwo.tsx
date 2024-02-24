@@ -76,7 +76,7 @@ const TableTwo = () => {
           key={key}
         >
           <div className="flex items-center gap-3 p-2.5 xl:p-5">
-            <p className="hidden text-black dark:text-white sm:block">
+            <p className="text-black dark:text-white sm:block">
               {product.name}
             </p>
           </div>
