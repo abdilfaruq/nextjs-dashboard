@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import DarkModeSwitcher from "./DarkModeSwitcher";
 import DropdownMessage from "./DropdownMessage";
@@ -53,19 +52,18 @@ const Header = (props: {
               </span>
             </span>
           </button>
-
-          <Link className="block flex-shrink-0 lg:hidden" href="/">
+          <div className="block flex-shrink-0 lg:hidden">
             <Image
               width={32}
               height={32}
               src={"/images/logo/logo-icon.svg"}
               alt="Logo"
             />
-          </Link>
+          </div>
         </div>
 
         <div className="hidden sm:block">
-          <form action="/" method="POST">
+          <form>
             <div className="relative">
               <button className="absolute left-0 top-1/2 -translate-y-1/2">
                 <svg

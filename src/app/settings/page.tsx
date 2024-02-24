@@ -229,7 +229,7 @@ const Settings = () => {
                   <div className="mb-4 flex items-center gap-3">
                     <div className="h-14 w-14 rounded-full">
                       <Image
-                        src={"/images/user/user-01.svg"}
+                        src={"/images/user/user-01.jpg"}
                         width={55}
                         height={55}
                         alt="User"

@@ -1,6 +1,10 @@
 {
-  "/not-found": "app/not-found.js",
+  "/_not-found": "app/_not-found.js",
   "/page": "app/page.js",
+  "/chart/page": "app/chart/page.js",
   "/auth/signin/page": "app/auth/signin/page.js",
-  "/auth/signup/page": "app/auth/signup/page.js"
+  "/auth/signup/page": "app/auth/signup/page.js",
+  "/tables/page": "app/tables/page.js",
+  "/profile/page": "app/profile/page.js",
+  "/settings/page": "app/settings/page.js"
 }
